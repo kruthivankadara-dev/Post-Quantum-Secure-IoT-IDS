@@ -20,9 +20,3 @@ Ready.
 
 Terminal 3 — IoT Device Simulator
 python iot/device_simulator.py
-
-This simulates multiple IoT devices
-Each device:
-Establishes a quantum-safe session using ML-KEM
-Encrypts telemetry using AES-256-GCM
-Sends secure packets to the Edge Gateway
